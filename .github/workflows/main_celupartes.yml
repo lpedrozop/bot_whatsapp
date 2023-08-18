@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: 'production'
+      name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -51,6 +51,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'celupartes'
-          slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_692ab518173f4e5da2b6cb844b488cb5 }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49F03DEAF7D74689A1DDCAA129F2A267 }}
           package: .
