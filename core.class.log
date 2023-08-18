@@ -1,0 +1,40 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573012185696@s.whatsapp.net',
+    fromMe: false,
+    id: '84BED3D9EFD7A5DA8D',
+    participant: undefined
+  },
+  messageTimestamp: 1692325496,
+  pushName: 'Lp🪐',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'buenas', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buenas',
+  from: '573012185696'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573012185696@s.whatsapp.net',
+    fromMe: false,
+    id: 'AD3AA095347A3739F2',
+    participant: undefined
+  },
+  messageTimestamp: 1692325500,
+  pushName: 'Lp🪐',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573012185696'
+}
